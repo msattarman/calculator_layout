@@ -56,6 +56,7 @@ const appData = {
       totalCount.value = appData.counter;
       totalCountOther.value = appData.servicePricesPercent + appData.servicePricesNumber;
       fullTotalCount.value = appData.fullPrice;
+      totalCountRollback.value = appData.servicePercentPrice
    },
    addScreens: function () {
       screens = document.querySelectorAll('.screen');
